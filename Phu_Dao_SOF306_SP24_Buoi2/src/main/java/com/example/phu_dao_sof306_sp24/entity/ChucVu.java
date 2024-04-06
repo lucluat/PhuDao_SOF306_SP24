@@ -1,10 +1,7 @@
 package com.example.phu_dao_sof306_sp24.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Entity
 @Table(name = "ChucVu")
@@ -12,6 +9,7 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class ChucVu {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
