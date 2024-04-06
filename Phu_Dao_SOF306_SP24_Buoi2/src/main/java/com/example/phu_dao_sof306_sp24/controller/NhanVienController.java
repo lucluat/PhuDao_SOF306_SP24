@@ -10,8 +10,6 @@ import java.util.List;
 @RestController
 public class NhanVienController {
 
-    @Autowired
-    private ChucVuRepository chucVuRepository;
 
     @Autowired
     private NhanVienRepository nhanVienRepository;
