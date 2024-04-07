@@ -30,7 +30,7 @@ public class NhanVienController {
 //    sử dụng method GET
     @GetMapping("/get-all")
     public List<NhanVienResponse> getAll(){
-        return nhanVienRepository.listNhanVienResponse();
+        return nhanVienRepository.listNhanVienResponse() ;
     }
 
     //Viết API add 1 đối tượng nhân viên vào DB sử dụng method POST
